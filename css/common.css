@@ -1,6 +1,6 @@
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 body {
   margin: 16px;
@@ -13,7 +13,7 @@ body {
   line-height: 1.5;
 }
 
-input {
+/* input {
   padding: 8px;
   font: inherit;
 }
@@ -22,3 +22,86 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+.img {
+  display: grid;
+  grid-row: 10px;
+  grid-column: 20px;
+  width: current; 
+  height: 100px;
+} */
+
+
+
+
+
+/* body {
+  margin: 8px;
+  font-family: sans-serif;
+}
+
+.output {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.color-palette {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+  gap: 4px;
+}
+
+.color-palette .item {
+  padding: 0;
+  margin: 0;
+  border: none;
+  border-radius: 4px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 250ms ease-in-out;
+}
+
+.color-palette .item:hover {
+  transform: scale(1.1);
+} */
+
+
+
+.container {
+display: flex;
+margin: 100px 50px 50px 50px;
+}
+
+.content {
+width: 155px;
+margin: 0 auto;
+border: 1px solid black;
+}
+
+.item {
+width: 50px;
+height: 50px;
+display: inline-block;
+line-height: 50px;
+font-size: 25px;
+text-align: center;
+border: 1px solid black;
+cursor: pointer;
+vertical-align: middle;
+transition: background .1s;
+}
+
+/* .item-red {
+background-color: red;
+}
+
+.item-green {
+background-color: green;
+}
+
+.item-black {
+background-color: black;
+} */

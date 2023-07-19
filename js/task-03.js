@@ -13,4 +13,13 @@ const images = [
   },
 ];
 
-document.get
+const galleryRef = document.querySelector(".gallery");
+
+const image = images
+  .map(({ url, alt }) => `<li><img class = "img" sr = ${url} alt = ${alt}></li>`)
+  .join()
+  .replaceAll(',', '');
+
+galleryRef.insertAdjacentHTML("afterbegin", image);
+console.log(galleryRef);
+
